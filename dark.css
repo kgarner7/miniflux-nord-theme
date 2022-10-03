@@ -27,16 +27,16 @@
   --table-tr-hover-background-color: #3b4252;
   --table-tr-hover-color: #eceff4;
 
-  --button-primary-border-color: #434c5e;
-  --button-primary-background: #3b4252;
+  --button-primary-border-color: #88c0d0;
+  --button-primary-background: #5e81ac;
   --button-primary-color: #eceff4;
-  --button-primary-focus-border-color: #4c566a;
-  --button-primary-focus-background: #434c5e;
+  --button-primary-focus-border-color: #81a1c1;
+  --button-primary-focus-background: #4c566a;
 
   --input-border: 1px solid #4c566a;
   --input-background: #3b4252;
   --input-color: #e5e9f0;
-  --input-placeholder-color: #d8dee9;
+  --input-placeholder-color: #d8dee9ab;
 
   --input-focus-color: #eceff4;
   --input-focus-border-color: rgba(129, 161, 193, 0.8);
@@ -173,4 +173,9 @@ select {
   border: var(--input-border);
   color: var(--input-color);
   padding: 3px;
+}
+
+.button:disabled {
+  background: #3b4252;
+  color: #4c566a;
 }
