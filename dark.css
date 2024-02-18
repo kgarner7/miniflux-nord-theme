@@ -121,7 +121,7 @@
   background-color: #3b425273;
 }
 
-.item-meta a {
+.item-meta a, ul.item-meta-icons li > :is(a, button) {
   color: #81a1c1;
 }
 
@@ -130,7 +130,9 @@
 }
 
 .item-meta a:hover,
-.item-meta a:focus {
+.item-meta button:hover,
+.item-meta a:focus,
+.item-meta button:focus {
   color: #5e81ac;
 }
 
