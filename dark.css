@@ -142,7 +142,8 @@
 }
 
 .confirm,
-.confirm a {
+.confirm a,
+.confirm button {
   color: var(--alert-error-color);
 }
 
