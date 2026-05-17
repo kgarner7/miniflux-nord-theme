@@ -121,7 +121,7 @@
   background-color: #3b425273;
 }
 
-.item-meta a, ul.item-meta-icons li > :is(a, button) {
+.item-meta a, ul.item-meta-icons li > :is(a, button), ul.item-meta-icons li > form > :is(a, button) {
   color: #81a1c1;
 }
 
