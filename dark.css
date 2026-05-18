@@ -151,7 +151,7 @@
   color: var(--alert-error-color);
 }
 
-.header li a:hover {
+.header li :is(a, .logout-button):hover {
   color: var(--header-link-hover-color);
 }
 
